@@ -11,7 +11,7 @@ const Services = () => {
                 <Image src='/images/styles.png' alt='Vector' title='styles' width={400} height={200} className='mt-10 w-full h-full undefined'
                 />
             </div>
-            <main className='flex flex-col w-full pt-32 gap-3 items-center justify-center'>
+            <main className='flex flex-col w-full mt-5 pt-32 gap-3 items-center justify-center'>
                 <motion.p
                     whileInView={{opacity: 1, y: 0}}
                     initial={{opacity: 0, y: -100}}
